@@ -1,0 +1,24 @@
+name: Enable Multilingual Support
+description: Installs and configures the necessary Drupal core modules to enable multilingual support with the provided language.
+install:
+  - language
+  - content_translation
+  - locale
+  - config_translation
+
+config:
+  actions:
+    language.entity.en:
+      create:
+        langcode: en
+        label: English
+        direction: ltr
+        weight: -1
+        locked: false
+    language.entity.fr:
+      create:
+        langcode: fr
+        label: French
+        direction: ltr
+        weight: -1
+        locked: false

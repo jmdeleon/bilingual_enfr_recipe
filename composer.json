@@ -1,0 +1,13 @@
+{
+  "name": "drupal/bilingual_enfr_recipe",
+  "description": "A Drupal recipe for setting up a multilingual-ready CMS in French with content translation and language negotiation.",
+  "type": "drupal-recipe",
+  "license": ["GPL-2.0-or-later"],
+  "require": {
+      "drupal/core": ">=10.4",
+      "drupal/language": "^11",
+      "drupal/locale": "^11",
+      "drupal/content_translation": "^11"
+  },
+  "version": "1.0.0"
+}
