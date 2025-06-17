@@ -1,0 +1,6 @@
+id: fr
+langcode: fr
+label: French
+direction: ltr
+weight: -1
+locked: false
