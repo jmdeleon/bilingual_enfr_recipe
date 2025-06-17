@@ -4,10 +4,7 @@
   "type": "drupal-recipe",
   "license": ["GPL-2.0-or-later"],
   "require": {
-      "drupal/core": ">=10.4",
-      "drupal/language": "*",
-      "drupal/locale": "*",
-      "drupal/content_translation": "*"
+      "drupal/core": ">=10.4"
   },
   "version": "1.0.0"
 }
