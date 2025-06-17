@@ -5,9 +5,9 @@
   "license": ["GPL-2.0-or-later"],
   "require": {
       "drupal/core": ">=10.4",
-      "drupal/language": "~11",
-      "drupal/locale": "~11",
-      "drupal/content_translation": "~11"
+      "drupal/language": "*",
+      "drupal/locale": "*",
+      "drupal/content_translation": "*"
   },
   "version": "1.0.0"
 }
